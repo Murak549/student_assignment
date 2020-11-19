@@ -1,4 +1,8 @@
 #include <cstdio>
+#include <fstream>
+#include <string>
+#include <cstdio>
+#define _CRT_SECURE_NO_WARNINGS
 
 int getInt() {
 	int input = 0;
@@ -10,7 +14,11 @@ int getInt() {
 
 int main() {
 	int num_of_class = 0;
-	printf("총 학급 수");
+	printf("총 학급 수\n");
 	num_of_class = getInt();
-	printf("\n학급 수가 %d 명 맞습니까?", num_of_class);
+	for (int i = 0; i < num_of_class; i++) {
+		printf("HELLO");
+	}
+
+	return 0;
 }
