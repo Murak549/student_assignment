@@ -14,7 +14,7 @@ int getInt() {
 
 int main() {
 	int num_of_class = 0;
-	printf("ÃÑ ÇĞ±Ş ¼ö\n");
+	printf("ì´ í•™ê¸‰ ìˆ˜\n");
 	num_of_class = getInt();
 	for (int i = 0; i < num_of_class; i++) {
 		printf("HELLO");
